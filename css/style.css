@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Viaoda+Libre&display=swap');
+
+
+/* font-family: 'Viaoda Libre', cursive;
+font-family: 'Righteous', cursive; */
+
+* {
+    box-sizing: border-box;
+    /* margin: 30px;
+    padding: 0; */
+}
+html {
+    min-height: 100vh;
+}
+body {
+    margin: 0;
+    background: radial-gradient(rgb(93, 143, 209), rgb(218, 248, 110));
+}
+h1 {
+    
+        color: rgb(1, 110, 252);
+       
+        font-weight: normal;
+        text-align: center;
+        font-size: 5em;
+        font-family: 'Viaoda Libre', cursive ;
+        /* margin: 0;
+        padding: 0; */
+    
+}
+h2 {
+    text-align: center;
+    font-family: 'Viaoda Libre', cursive ;
+    /* margin: 0;
+    padding: 0; */
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: inherit;
+    position: relative;
+
+}
+li {
+    float: center;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  /* padding-right: 42px; */
+  text-decoration: none;
+
+}
+li a:hover {
+    background-color: none;
+  }
+  div {
+    width: 840px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: auto;
+    position: center;
+  }
+ h3, p {
+      text-align: center;
+  }
+/* a {
+    background-color: red;
+    color: white;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  a:hover {
+    background-color: #555;
+  }
+  
+  a:active {
+    background-color: black;
+  }
+  
+  a:visited {
+    background-color: #ccc;
+  } */

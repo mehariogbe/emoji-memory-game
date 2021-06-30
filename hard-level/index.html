@@ -1,0 +1,205 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+    <script defer src="./js/script.js"></script>
+    <title>Emoji Memory Game</title>
+  </head>
+
+  <body>
+    <h1 class = "title">Emoji Memory Game</h1>
+
+ <div class = "ending-box">
+     <div id="looser" class="ending-text">
+       You Loose!!
+       <span class="ending-small">Restart The Game</span>
+     </div>
+     <div id="winner" class="ending-text">
+       You Won The Game!!
+       <span class="ending-small">Restart</span>
+     </div>
+</div>
+
+     <div class = "game-box">
+        <div class="info-box">
+            <div class="info">
+               Remaining Time <span id="time-remaining">100</span>
+            </div>
+            <div class="info">
+               Moves <span id="moves">0</span>
+           </div>
+        </div>
+        <!-- <section class="memory-game"> -->
+        <div class="card">
+            <div class="back-card image">
+                <img src="images/smiley.png">
+            </div>
+            <div class="front-card image">
+                <img class="front-img" value="image" src="images/angry.png">
+            </div>
+        </div>
+        <div class="card">
+           <div class="back-card image">
+               <img src="images/smiley.png">
+           </div>
+           <div class="front-card image">
+               <img class="front-img" value="image" src="images/angry.png">
+           </div>
+           
+        </div>
+        <div class="card">
+           <div class="back-card image">
+               <img src="images/smiley.png">
+           </div>
+           <div class="front-card image">
+               <img class="front-img" value="image" src="images/angel.png">
+           </div>
+        </div>
+        <div class="card">
+           <div class="back-card image">
+               <img src="images/smiley.png">
+           </div>
+           <div class="front-card image">
+               <img class="front-img" value="image" src="images/angel.png">
+           </div>
+        </div> 
+        <div class="card">
+           <div class="back-card image">
+               <img src="images/smiley.png">
+           </div>
+           <div class="front-card image">
+               <img class="front-img" value="image" src="images/blushing.png">
+           </div>
+        </div>
+        <div class="card">
+           <div class="back-card image">
+               <img src="images/smiley.png">
+           </div>
+           <div class="front-card image">
+               <img class="front-img" value="image" src="images/blushing.png">
+           </div>
+        </div>
+        <div class="card">
+           <div class="back-card image">
+               <img src="images/smiley.png">
+           </div>
+           <div class="front-card image">
+               <img class="front-img" value="image" src="images/sunglasses.png">
+           </div>
+        </div>
+        <div class="card">
+           <div class="back-card image">
+               <img  src="images/smiley.png">
+           </div>
+           <div class="front-card image">
+               <img class="front-img" value="image" src="images/sunglasses.png">
+           </div>
+        </div>
+        <div class="card">
+           <div class="back-card image">
+               <img src="images/smiley.png">
+           </div>
+           <div class="front-card image">
+               <img class="front-img" value="image" src="images/devil.png">
+           </div>
+        </div>
+        <div class="card">
+           <div class="back-card image">
+               <img src="images/smiley.png">
+           </div>
+           <div class="front-card image">
+               <img class="front-img" value="image" src="images/devil.png">
+           </div>
+        </div>
+        <div class="card">
+           <div class="back-card image">
+               <img src="images/smiley.png">
+           </div>
+           <div class="front-card image">
+               <img class="front-img" value="image" src="images/fart.png">
+           </div>
+        </div>
+        <div class="card">
+           <div class="back-card image">
+               <img src="images/smiley.png">
+           </div>
+           <div class="front-card image">
+               <img class="front-img" value="image" src="images/fart.png">
+           </div>
+        </div>
+        <div class="card">
+           <div class="back-card image">
+               <img src="images/smiley.png">
+           </div>
+           <div class="front-card image">
+               <img class="front-img" value="image" src="images/smiley-hd.png">
+           </div>
+        </div>
+        <div class="card">
+           <div class="back-card image">
+               <img src="images/smiley.png">
+           </div>
+           <div class="front-card image">
+               <img class="front-img" value="image" src="images/smiley-hd.png">
+           </div>
+        </div>
+        <div class="card">
+           <div class="back-card image">
+               <img src="images/smiley.png">
+           </div>
+           <div class="front-card image">
+               <img class="front-img" value="image" src="images/fire.png">
+           </div>
+        </div>
+        <div class="card">
+           <div class="back-card image">
+               <img src="images/smiley.png">
+           </div>
+           <div class="front-card image">
+               <img class="front-img" value="image" src="images/fire.png">
+           </div>
+        </div>
+        <div class="card">
+            <div class="back-card image">
+                <img src="images/smiley.png">
+            </div>
+            <div class="front-card image">
+                <img class="front-img" value="image" src="images/pirate.png">
+            </div>
+         </div>
+         <div class="card">
+            <div class="back-card image">
+                <img src="images/smiley.png">
+            </div>
+            <div class="front-card image">
+                <img class="front-img" value="image" src="images/pirate.png">
+            </div>
+         </div>
+         <div class="card">
+            <div class="back-card image">
+                <img src="images/smiley.png">
+            </div>
+            <div class="front-card image">
+                <img class="front-img" value="image" src="images/monkey.png">
+            </div>
+         </div>
+         <div class="card">
+            <div class="back-card image">
+                <img src="images/smiley.png">
+            </div>
+            <div class="front-card image">
+                <img class="front-img" value="image" src="images/monkey.png">
+            </div>
+         </div>
+       <!-- </section> -->
+    </div>
+    
+</body>
+</html>
